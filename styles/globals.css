@@ -20,3 +20,9 @@ a {
 .bg-app{
   background: #EC6448;
 }
+/*.bg-after-barchart::after{*/
+/*  background-image: url("../public/bg/bar-chart.svg");*/
+/*  height: 100px;*/
+/*  position: absolute;*/
+/*  content: '';*/
+/*}*/

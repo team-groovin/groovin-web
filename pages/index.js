@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.css'
 import Footer from "../components/Footer";
 import Groovin from "../components/Groovin";
 import Navbar from "../components/Navbar";
+import Welcome from "../components/Welcome";
+import BringYourBusinessToUs from "../components/BringYourBusiness";
 
 export default function Home() {
   return (
@@ -13,8 +15,9 @@ export default function Home() {
 
           </Head>
           <div className="content min-h-screen">
-              <Navbar/>
-            <Groovin/>
+              <Welcome />
+              <BringYourBusinessToUs />
+              <Groovin/>
           </div>
           <Footer />
       </div>

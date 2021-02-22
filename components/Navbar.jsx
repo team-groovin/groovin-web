@@ -1,5 +1,3 @@
-import * as styles from "../styles/Navbar.module.css"
-
 export default function Navbar(){
     return (
         <div className={"px-5 py-3 "+ styles.container}>
@@ -10,7 +8,7 @@ export default function Navbar(){
                 </div>
                 <div className="justify-end py-auto hidden md:flex">
                     <div className="flex-initial px-5 py-3">
-                        <a href={"#start"} className="text-black">Start</a>
+                        <a href={"#start"} className="text-black border-b-2 border-yellow-700 py-2">&nbsp;&nbsp;Start&nbsp;&nbsp;</a>
                     </div>
                     <div className="flex-initial px-5 py-3">
                         <a href={"#start"} className="text-black">Sell</a>
@@ -25,4 +23,12 @@ export default function Navbar(){
             </div>
         </div>
     )
+}
+
+const styles = {
+    container:{
+        backgroundColor:"transparent",
+        color:"black",
+        zIndex:1000
+    }
 }
