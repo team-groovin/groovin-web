@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Footer from "../components/Footer";
-import Welcome from "../components/Welcome";
+import Groovin from "../components/Groovin";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
 
           </Head>
           <div className="content min-h-screen">
-            <Welcome/>
+              <Navbar/>
+            <Groovin/>
           </div>
           <Footer />
       </div>
