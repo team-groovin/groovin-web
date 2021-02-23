@@ -14,7 +14,7 @@ export default function Welcome(){
                             the world to vote and buy them.
                         </p>
                         <div className="mb-7  sm:text-center md:text-left">
-                            <button className="bg-app py-3 px-10 font-medium rounded-sm text-gray-200">More Info</button>
+                            <button className="bg-app py-3 px-10 font-medium rounded-sm text-gray-100">More info</button>
                         </div>
                     </div>
                     <div className="img-">

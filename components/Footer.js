@@ -7,7 +7,7 @@ export default function Footer(){
                         <img src={"/logo-transparent.svg"} className={"inline-block"} width={80} />
                         <span className="text-white text-2xl ml-auto mr-auto">Groovin</span>
                     </div>
-                    <p className="text-left text-gray-400 text-sm my-2">Copyright Groovin 2021 All Rights Reserved.</p>
+                    <p className="text-left text-gray-400 text-sm my-0">Copyright Groovin 2021 All Rights Reserved.</p>
                 </div>
                 <div className="text-gray-400 grid grid-cols-3 py-2">
                     <div className="">Start</div>

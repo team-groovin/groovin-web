@@ -13,6 +13,14 @@ export default function Discover(){
                         <h2 className="text-xl font-bold">Purchase a unique design from what you liked</h2>
                         <p className="font-normal text-md py-2">Check out the winning designs in our store, purchase what you loved and get it on your doorstep in just a click.</p>
                     </div>
+                    <div className="w-10/12 grid grid-cols-2">
+                        <div>
+                            <img src="/img/playstore.png" alt="Groovin for android" className="block w-full h-28" />
+                        </div>
+                        <div>
+                            <img src="/img/app-store.png" alt="Groovin for IOS" className="block w-full h-32"/>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-span-1 md:col-span-2">
                     <img src="/img/app-in-iphone-12.png" alt="Groovin for iPhone" className="block h-full mx-auto"/>
