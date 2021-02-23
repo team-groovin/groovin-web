@@ -2,7 +2,7 @@ import * as styles from '../styles/Welcome.module.css'
 
 export default function BringYourBusinessToUs(){
     return(
-        <div className={"py-10 px-8 " + styles.bringContainer}>
+        <div className={"py-10 px-8 " + styles.bringContainer} id={"bring"}>
             <div className="upper">
                 <h1 className="text-3xl font-bold my-3">Bring your business online</h1>
                 <p className="text-left text-md md:w-2/3 my-5">Groovin provides you an online store where you can sell your best designs without the need of having a physical store.</p>

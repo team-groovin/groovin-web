@@ -1,6 +1,6 @@
 export default function Groovin(){
     return (
-        <div className={"w-full m-0 p-0"}>
+        <div className={"w-full m-0 p-0"} id={"groovin"}>
             <div className="bg-app py-7 px-6">
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                     <div className="p-0"></div>

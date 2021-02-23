@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 export default function Welcome(){
     return(
-        <div className={"bg-after-barchart " + styles.mainDiv}>
+        <div className={"bg-after-barchart " + styles.mainDiv} id={"welcome"}>
             <Navbar />
             <div className="py-12 px-10">
                 <div className="grid grid-cols-1 md:grid-cols-2">
@@ -14,7 +14,7 @@ export default function Welcome(){
                             the world to vote and buy them.
                         </p>
                         <div className="mb-7  sm:text-center md:text-left">
-                            <button className="bg-app py-3 px-10 font-medium rounded-sm text-gray-100">More info</button>
+                            <a href={"/#groovin"} className="bg-app py-3 px-10 font-medium rounded-sm text-gray-100">More info</a>
                         </div>
                     </div>
                     <div className="img-">

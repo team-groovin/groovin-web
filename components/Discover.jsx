@@ -1,6 +1,6 @@
 export default function Discover(){
     return (
-        <div style={styles.container} className={"p-5 sm:p-7 md:p-10"}>
+        <div style={styles.container} className={"p-5 sm:p-7 md:p-10"} id={"discover"}>
             <h2 className="text-3xl md:w-2/3 font-bold">Discover new Designs from Creative People</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5">
                 <div className="col-span-1 sm:col-span-2 md:col-span-3">
@@ -13,7 +13,7 @@ export default function Discover(){
                         <h2 className="text-xl font-bold">Purchase a unique design from what you liked</h2>
                         <p className="font-normal text-md py-2">Check out the winning designs in our store, purchase what you loved and get it on your doorstep in just a click.</p>
                     </div>
-                    <div className="grid grid-cols-2">
+                    <div className="grid grid-cols-2" id={"download"}>
                         <div>
                             <img src="/img/playstore.png" alt="Groovin for android" className="block w-full  sm:h-16 md:h-28" />
                         </div>
