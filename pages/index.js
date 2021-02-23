@@ -16,8 +16,8 @@ export default function Home() {
           </Head>
           <div className="content min-h-screen">
               <Welcome />
-              <BringYourBusinessToUs />
               <Groovin/>
+              <BringYourBusinessToUs />
           </div>
           <Footer />
       </div>
