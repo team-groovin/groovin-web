@@ -16,6 +16,7 @@ export default function Home() {
 
           </Head>
           <div className="content min-h-screen">
+              {/*developed by Jacques Twizeyimana*/}
               <Welcome />
               <Groovin/>
               <BringYourBusinessToUs />

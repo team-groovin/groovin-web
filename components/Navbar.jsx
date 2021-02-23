@@ -4,7 +4,7 @@ export default function Navbar(){
             <div className="grid grid-cols-2">
                 <div className="text-left">
                     <img src={"/logo.png"} className={"inline-block"} width={80} />
-                    <span className="font-bold text-lg ml-2 inline-block">Groovin</span>
+                    <span className="font-bold text-lg ml-2 inline-block cursor-pointer">Groovin</span>
                 </div>
                 <div className="justify-end py-auto hidden md:flex">
                     <div className="flex-initial px-5 py-3">
