@@ -15,12 +15,12 @@ export default function BringYourBusinessToUs(){
                 </div>
                 <div className="element p-5">
                     <h2 className="font-medium text-xl px-5">Get in Competition</h2>
-                    <img src="/img/become-visible.png" alt="Become visible" className={"w-full rounded block"}/>
+                    <img src="/img/compete.png" alt="Become visible" className={"w-full rounded block"}/>
                     <div className="py-3 px-2">Emerge in the competition with other designers, and sell the winning design securing your investment.</div>
                 </div>
                 <div className="element p-5">
-                    <h2 className="font-medium text-xl px-5">Become Visible</h2>
-                    <img src="/img/become-visible.png" alt="Become visible" className={"w-full rounded block"}/>
+                    <h2 className="font-medium text-xl px-5">Design and Relax</h2>
+                    <img src="/img/relax.png" alt="Become visible" className={"w-full rounded block"}/>
                     <div className="py-3 px-2">Publish the design and let Groovin do all the work from actual production to delivery.</div>
                 </div>
             </div>
