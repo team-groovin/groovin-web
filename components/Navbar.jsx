@@ -6,7 +6,10 @@ export default function Navbar(){
                     <img src={"/logo.png"} className={"inline-block"} width={80} />
                     <span className="font-bold text-lg ml-2 inline-block cursor-pointer">Groovin</span>
                 </div>
-                <div className="justify-end py-auto hidden md:flex">
+                <div className={"text-right md:hidden"}>
+                    <button className="text-white focus:outline-none text-3xl">&#9776;</button>
+                </div>
+                <div className="justify-end py-auto block md:flex">
                     <div className="flex-initial px-5 py-3">
                         <a href={"#start"} className="text-black border-b-2 border-yellow-700 py-2">&nbsp;&nbsp;Start&nbsp;&nbsp;</a>
                     </div>
