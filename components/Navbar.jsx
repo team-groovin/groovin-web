@@ -15,7 +15,7 @@ export default function Navbar() {
                 <div className={`justify-end col-span-2 md:col-span-1 py-auto ${open ? 'block':'hidden'}  md:flex text-right `}>
                     <div className="flex-initial px-5 py-3">
                         <a href={"#start"}
-                           className="text-black border-b-2 border-yellow-700 py-2">&nbsp;&nbsp;Start&nbsp;&nbsp;</a>
+                           className="text-black border-b-2 border-yellow-700 py-2 px-2">Start</a>
                     </div>
                     <div className="flex-initial px-5 py-3">
                         <a href={"#bring"} className="text-black">Sell</a>

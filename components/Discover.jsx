@@ -3,7 +3,7 @@ export default function Discover(){
         <div style={styles.container} className={"p-5 sm:p-7 md:p-10"} id={"discover"}>
             <h2 className="text-3xl md:w-2/3 font-bold">Discover new Designs from Creative People</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5">
-                <div className="col-span-1 sm:col-span-2 md:col-span-3">
+                <div className="col-span-1 sm:col-span-2 md:col-span-3 pr-5 md:pr-2">
                     <p className="py-5 text-md py-2">Browse and purchase thousands of new designs posted by different designers, and vote for what you like to get it in the store.</p>
                     <div className="w-10/12">
                         <h2 className="text-xl font-bold">Explore and Vote brand new content</h2>
