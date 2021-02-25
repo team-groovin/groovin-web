@@ -1,7 +1,7 @@
 import {useState} from "react";
 
 export default function Navbar() {
-    const [open,setOpen] = useState(true)
+    const [open,setOpen] = useState(false)
     return (
         <div className={"px-5 py-3 " + styles.container}>
             <div className="grid grid-cols-2">
