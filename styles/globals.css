@@ -8,12 +8,7 @@
   font-style: normal;
   font-weight: normal;
   src: local('Ubuntu'),
-  url("../public/fonts/Ubuntu/Ubuntu-Regular.ttf") format("opentype"),
-  url("../public/fonts/Ubuntu/Ubuntu-Bold.ttf") format("opentype"),
-  url("../public/fonts/Ubuntu/Ubuntu-BoldItalic.ttf") format("opentype"),
-  url("../public/fonts/Ubuntu/Ubuntu-Light.ttf") format("opentype"),
-  url("../public/fonts/Ubuntu/Ubuntu-Medium.ttf") format("opentype"),
-  url("../public/fonts/Ubuntu/Ubuntu-Italic.ttf") format("opentype")
+  url("../public/fonts/Ubuntu/Ubuntu-Regular.ttf") format("opentype")
 }
 
 html,

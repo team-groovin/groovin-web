@@ -17,7 +17,7 @@ export default function Welcome(){
                             <a href={"/#groovin"} className="bg-app py-3 px-10 font-medium rounded-sm text-gray-100">More info</a>
                         </div>
                     </div>
-                    <div className="img-">
+                    <div className="img- mt-8 md:mt-0">
                         <div className="grid grid-cols-3 gap-0">
                             <div className="py-16">
                                 <h2 className="text-lg font-bold text-center">Discover</h2>
