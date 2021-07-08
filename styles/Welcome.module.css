@@ -1,12 +1,20 @@
-.mainDiv{
-    background-image: linear-gradient(rgba(236, 100, 72, 0.7),rgba(249, 207, 198, 0.4),rgba(255, 255, 255, 0.2)),url("../public/bg/bar-chart.svg");
-    background-repeat: no-repeat;
-    background-position: bottom;
+.mainDiv {
+  background-image: linear-gradient(
+      rgba(236, 100, 72, 0.7),
+      rgba(249, 207, 198, 0.4),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("../public/bg/bar-chart.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
-.bringContainer{
-    background-color: #FFFFFF;
-    background-image: url("../public/bg/zigzag.svg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
+.bringContainer {
+  background-color: #ffffff;
+  background-image: url("../public/bg/zigzag.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.rotating {
+  transform: scaleX(-1);
 }

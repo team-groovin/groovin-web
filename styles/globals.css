@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   font-style: normal;
   font-weight: normal;
-  src: local('Ubuntu'),
-  url("../public/fonts/Ubuntu/Ubuntu-Regular.ttf") format("opentype")
+  src: local("Ubuntu"),
+    url("../public/fonts/Ubuntu/Ubuntu-Regular.ttf") format("opentype");
 }
 
 html,
@@ -29,6 +28,6 @@ a {
   font-family: Ubuntu;
 }
 
-.bg-app{
-  background: #EC6448;
+.bg-app {
+  background: #ec6448;
 }
