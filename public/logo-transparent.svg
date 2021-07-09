@@ -1,5 +1,7 @@
-<svg width="139" height="81" viewBox="0 0 139 81" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="138.635" height="81" fill="url(#pattern0)"/>
+<svg width="89" height="52" viewBox="0 0 89 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<ellipse cx="28.3588" cy="27.5" rx="21.3588" ry="21.5" fill="#EC6448"/>
+<ellipse cx="59.7175" cy="27.5" rx="21.3588" ry="21.5" fill="#B62833"/>
+<rect width="89" height="52" fill="url(#pattern0)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-1 -0.303704) scale(0.004329 0.00740741)"/>

@@ -76,7 +76,7 @@ export default function Groovin() {
           </div>
         </div>
       </div>
-      <div className="md:w-4/12 w-ful md:m-0 m-8">
+      <div className="md:w-4/12 w-full md:m-0 m-8">
         <Image
           src="/img/bring_business_online.svg"
           alt="Become visible"

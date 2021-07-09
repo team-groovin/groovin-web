@@ -18,3 +18,9 @@
 .rotating {
   transform: scaleX(-1);
 }
+
+.getTheApp {
+  background-image: url("../public/bg/get_the_app_bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

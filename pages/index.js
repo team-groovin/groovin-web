@@ -1,11 +1,10 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import Footer from "../components/Footer";
 import Groovin from "../components/Groovin";
-import Navbar from "../components/Navbar";
 import Welcome from "../components/Welcome";
 import BringYourBusinessToUs from "../components/BringYourBusiness";
 import Discover from "../components/Discover";
+import GetTheApp from "../components/GetTheApp";
 
 export default function Home() {
   return (
@@ -20,6 +19,7 @@ export default function Home() {
         <Groovin />
         <BringYourBusinessToUs />
         <Discover />
+        <GetTheApp />
       </div>
       <Footer />
     </div>

@@ -1,4 +1,3 @@
-import * as styles from "../styles/Welcome.module.css";
 import Image from "next/image";
 
 export default function BringYourBusinessToUs() {
@@ -7,16 +6,18 @@ export default function BringYourBusinessToUs() {
       className={"w-full flex flex-col md:flex-row justify-evenly my-7"}
       id={"groovin"}
     >
-      <div className="md:w-4/12 w-ful md:m-0 m-8">
+      <div className="md:w-4/12 flex flex-col w-full md:m-0 m-8">
         <h1 className="font-extrabold text-3xl pb-10">
           Discover new Designs from Creative People
         </h1>
-        <Image
-          src="/img/discover_designs.svg"
-          alt="Become visible"
-          width={695}
-          height={870}
-        />
+        <div className="w-full md:m-0 m-8">
+          <Image
+            src="/img/discover_designs.svg"
+            alt="Become visible"
+            width={685}
+            height={870}
+          />
+        </div>
       </div>
 
       <div className="w-96 p-10">
