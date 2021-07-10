@@ -7,7 +7,9 @@
     url("../public/bg/bar-chart.svg");
   background-repeat: no-repeat;
   background-position: bottom;
+  /* background: green; */
 }
+
 .bringContainer {
   background-color: #ffffff;
   background-image: url("../public/bg/zigzag.svg");
@@ -24,3 +26,9 @@
   background-repeat: no-repeat;
   background-position: bottom;
 }
+/* 
+@media screen and (min-width: 320px) {
+  .getTheApp {
+    background: green;
+  }
+} */
