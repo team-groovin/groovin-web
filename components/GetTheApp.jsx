@@ -30,7 +30,7 @@ function GetTheApp() {
       className={"bg-after-barchart w-full " + styles.getTheApp}
       id={"welcome"}
     >
-      <div className="py-12 px-12 md:px-10 md:p-4 p-0">
+      <div className="py-2 px-2 md:py-12 md:px-12 md:px-10 md:p-4 p-0">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="text-white my-auto pr-16">
             <h1 className="text-4xl font-bold sm:text-center md:text-left">

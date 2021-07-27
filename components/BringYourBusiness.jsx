@@ -10,7 +10,7 @@ export default function BringYourBusinessToUs() {
         <h1 className="font-extrabold text-3xl pb-10">
           Discover new Designs from Creative People
         </h1>
-        <div className="w-full md:m-0 m-8">
+        <div className="w-full md:m-8 m-8">
           <Image
             src="/img/discover_designs.svg"
             alt="Become visible"

@@ -8,12 +8,12 @@ import GetTheApp from "../components/GetTheApp";
 
 export default function Home() {
   return (
-    <div className={"m-0 p-0"}>
+    <div className={""}>
       <Head>
         <title>Groovin | Home</title>
         <link rel="icon" href="/logo.png" />
       </Head>
-      <div className="content min-h-screen">
+      <div className="min-h-screen">
         {/*developed by Jacques Twizeyimana and Blessing Hirwa*/}
         <Welcome />
         <Groovin />
