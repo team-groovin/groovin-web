@@ -37,9 +37,9 @@ function GetTheApp() {
               Get the App now! <br /> Begin your discovery
             </h1>
             <p className="my-7 text-sm sm:text-center md:text-left">
-              Download the app to manage your projects, keep track of the
-              progress and complete tasks without procastinating. Stay on track
-              and complete on time!
+            Download the app to design your unique fashion style,
+             keep track of the progress and complete your design
+              without stress. Stay on track and complete on time!
             </p>
             <p className="mt-10">Get the app</p>
             <div className="flex flex-row gap-4 md:mt-7 w-full">

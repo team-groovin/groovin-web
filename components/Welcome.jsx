@@ -11,12 +11,10 @@ export default function Welcome() {
         <div className="py-12 px-12">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="text-black my-auto pr-16 pl-4 ">
-              <h1 className="text-4xl font-bold sm:text-center md:text-left">Welcome to Groovin</h1>
+              <h1 className="text-4xl font-bold sm:text-center md:text-left">A Personal Mobile Fashion Design Platform</h1>
               <p className="my-7 text-md sm:text-center md:text-left">
-                Groovin is a fashion design crowdsources platform which empowers
-                and supports Graphic and fashion designers creativity on a
-                global scale by sharing their passion for the world to vote and
-                buy them.
+              Groovinx is a mobile fashion design platform where you personalize & 
+              design your clothing and we make them. You Design it; We Make it! 
               </p>
               <div className="mb-7  sm:text-center md:text-left">
                 <a href={"/#groovin"}

@@ -25,7 +25,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex-initial px-5 mt-4">
                         <a href={"#download"} className="px-5 py-2 bg-app font-bold text-black">Access</a>
-                    </div>
+                </div>
             </div>
         </div>
     )
